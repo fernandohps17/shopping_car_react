@@ -14,7 +14,7 @@ function useFilters() {
   const { filters } = useContext(FilterContext)
   console.log({filters})
   const setFilters = () => {}
-
+// minuto 52 segundo 08
   const filterProducts = (products) => {
     return products.filter(product => {
       return (
