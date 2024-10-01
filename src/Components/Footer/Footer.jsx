@@ -1,11 +1,6 @@
-import { useFilters } from '../../Hook/useFilters'
 import './Footer.scss'
 
 const Footer = () => {
-
-    const { filters } = useFilters()
-    // 1h y 5m
-
 
   return (
     <footer className='footer'>
