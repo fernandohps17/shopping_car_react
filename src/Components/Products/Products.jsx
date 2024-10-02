@@ -1,8 +1,13 @@
 import React from 'react'
 import './Products.scss';
 import { AddToCartIcon } from '../Icons/Icons'
+import { useCart } from '../../Hook/useCart';
 
 const Products = ({ products }) => {
+
+  const { addToCart, cart } = useCart()
+
+
   return (
     <main className='products'>
       <ul>
